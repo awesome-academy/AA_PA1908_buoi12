@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_android"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Android" />
+    <item
+        android:id="@+id/item_ios"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="IOS" />
+    <group
+        android:id="@+id/menu_group_main"
+        android:menuCategory="container">
+        <item
+            android:id="@+id/item_Php"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="Php" />
+        <item
+            android:id="@+id/item_Ruby"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="Ruby" />
+        <item
+            android:id="@+id/item_java"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="Java" />
+    </group>
+</menu>
